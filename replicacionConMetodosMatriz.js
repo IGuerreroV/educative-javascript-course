@@ -11,13 +11,13 @@ var arr = [1, 2, 3, 4] // Asigamos una matriz a la variable arr
 console.log('Before Slice');
 console.log('arr:', arr);
 
-// Llammamos al metodo toString() para convertir la matriz en una cadena y luego imprimimos la cadena
+// Creamos diferentes subconjuntos del arreglo original usando el método slice()
 var arr1 = arr.slice()
 var arr2 = arr.slice(1)
 var arr3 = arr.slice(1, 1)
 var arr4 = arr.slice(0, -1)
 
-// Imprime el tipo y los valores de arr y str_arr despues de llamar al metodo toString()
+// Imprime los valores del arreglo original y los subarreglos creados con slice()
 console.log('After Slice:');
 console.log(`original arr: ${arr}`);
 console.log('arr1:', arr1);
